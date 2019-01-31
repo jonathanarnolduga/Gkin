@@ -1,0 +1,36 @@
+data set SAMPLE
+nspec     nreac
+   6        3
+            time0         time1        ntime        ntskip       jtime
+           0.0      10.0        1000            1            4
+         namespec/xspec0       jfix
+          H2
+                   6.0           0
+          O
+                   0.0           0
+          H
+                   0.01           0
+          O2
+                   3.0           0
+          OH
+                   0.0           0
+          H2O
+                   0.0           0
+R1       rkfor       rkbak       nipart       nopart       jkin
+          1.0         0.02               2            2          1
+          H2
+          O
+                     H
+                     OH
+R2       rkfor       rkbak       nipart       nopart       jkin
+          1.0         0.02               2            2          1
+          H
+          O2
+                     O
+                     OH
+R3       rkfor       rkbak       nipart       nopart       jkin
+          0.5         0.01               2            2          1
+          OH
+          H2
+                     H2O
+                     H
